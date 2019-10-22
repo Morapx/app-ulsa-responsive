@@ -4,5 +4,5 @@ const getwidth = ()=>{
     let width = document.documentElement.clientWidth;
     pixels.innerText = `${width}px`;
 }
-
-window.addEventListener(`resize`, getwidth)
+getwidth();
+window.addEventListener(`resize`, getwidth) /* llamar al getwidth para que se cambia dependiendo del tamaño de la pagina */
