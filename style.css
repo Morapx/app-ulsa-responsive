@@ -1,12 +1,45 @@
-.nav-bar{
+ /*
+ .nav-bar{
     width: 100%;
     margin: 0;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: red;
+    text-decoration: none;
+    font-size: 100px;
 }
 
-
+.option{
+    margin: 0;
+    color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+}*/
 
 body{
-    background-color: goldenrod;
-    margin: 0 auto;
+    background-color: darkmagenta;
+    margin: 0;
+}
+
+@media only screen and (max-width: 1200px) { /* para agrandar la pantalla se debe poner un maximo de pantalla*/
+    body {
+      background-color: midnightblue;
+    }
+  }
+
+  @media only screen and (max-width: 1000px) {
+      body {
+          background-color: powderblue;
+      }
+  }
+
+  @media only screen and (max-width: 800px) {
+    body {
+        background-color: saddlebrown;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: yellowgreen;
+    }
 }
