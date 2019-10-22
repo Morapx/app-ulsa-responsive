@@ -94,6 +94,10 @@ body{
         float: none;
         margin-right: 0;
     }
+    .section:hover{
+        background-color: tomato;
+        color: wheat;
+    }
     .container{
         width: 100%;
     }
